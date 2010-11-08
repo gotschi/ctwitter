@@ -10,7 +10,16 @@
 
 @interface cTwitterAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+	
+	IBOutlet NSTextField *serverIp;
+	IBOutlet NSTextField *serverPort;
+	IBOutlet NSButton *startButton;
+	
+	IBOutlet NSScrollView *clientList;
+	IBOutlet NSScrollView *messageList;
 }
+
+-(IBAction) startServer: (id) sender;
 
 @property (assign) IBOutlet NSWindow *window;
 
