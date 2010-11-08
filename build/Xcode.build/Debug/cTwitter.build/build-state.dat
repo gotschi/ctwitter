@@ -1,0 +1,123 @@
+TcTwitter
+v7
+r1
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CA9EA2300000000000000EE
+t1286203939
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/InfoPlist.strings
+c000000004CD7D338000000000000002D
+t1289212728
+s45
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib
+c000000004CD7D338000000000002BB55
+t1289212728
+s179029
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/XcodeAppDelegate.h
+c000000004CD7D338000000000000013A
+t1289212728
+s314
+i<Cocoa/Cocoa.h>
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/XcodeAppDelegate.m
+c000000004CD7D338000000000000016D
+t1289212728
+s365
+i"XcodeAppDelegate.h"
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/Info.plist
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/MacOS/cTwitter
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Xcode.build/Debug/cTwitter.build/Objects-normal/x86_64/XcodeAppDelegate.o
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Xcode.build/Debug/cTwitter.build/Objects-normal/x86_64/cTwitter.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Xcode.build/Debug/cTwitter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitter_Prefix.pch
+c000000004CD7D338000000000000008D
+t1289212728
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/main.m
+c000000004CD7D3380000000000000100
+t1289212728
+s256
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitter_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitter_Prefix.pch.gch
+t2
+s0
+
+NcTwitter-Info.plist
+c000000004CD7D33800000000000003EA
+t1289212728
+s1002
+
+CCompileC build/Xcode.build/Debug/cTwitter.build/Objects-normal/x86_64/XcodeAppDelegate.o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/XcodeAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Xcode.build/Debug/cTwitter.build/Objects-normal/x86_64/main.o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib"
+r0
+
+CCopyStringsFile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CLd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/MacOS/cTwitter" normal x86_64
+r0
+
+CProcessInfoPlistFile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app/Contents/Info.plist" cTwitter-Info.plist
+r0
+
+CProcessPCH /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitter_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitter_Prefix.pch.gch cTwitter_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitter.app"
+r0
+

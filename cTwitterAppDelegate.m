@@ -6,9 +6,9 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "XcodeAppDelegate.h"
+#import "cTwitterAppDelegate.h"
 
-@implementation XcodeAppDelegate
+@implementation cTwitterAppDelegate
 
 @synthesize window;
 

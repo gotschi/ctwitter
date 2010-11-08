@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface XcodeAppDelegate : NSObject <NSApplicationDelegate> {
+@interface cTwitterAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
 }
 

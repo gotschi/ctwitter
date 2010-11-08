@@ -1,0 +1,87 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* cTwitterAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 410}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 314}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 410}}";
+			sepNavSelRange = "{356, 0}";
+			sepNavVisRange = "{0, 365}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A77CA33E12880ABA003EBF11 /* cTwitter */;
+		activeTarget = 8D1107260486CEB800E47090 /* cTwitter */;
+		codeSenseManager = A77CA34B12880AD9003EBF11 /* Code sense */;
+		executables = (
+			A77CA33E12880ABA003EBF11 /* cTwitter */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 310905530;
+			PBXWorkspaceStateSaveDate = 310905530;
+		};
+		sourceControlManager = A77CA34A12880AD9003EBF11 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 410}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 256}";
+		};
+	};
+	8D1107260486CEB800E47090 /* cTwitter */ = {
+		activeExec = 0;
+		executables = (
+			A77CA33E12880ABA003EBF11 /* cTwitter */,
+		);
+	};
+	A77CA33E12880ABA003EBF11 /* cTwitter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = cTwitter;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A77CA34A12880AD9003EBF11 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A77CA34B12880AD9003EBF11 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
