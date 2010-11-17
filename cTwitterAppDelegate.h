@@ -9,7 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface cTwitterAppDelegate : NSObject <NSApplicationDelegate> {
+	
     NSWindow *window;
+	
+	Boolean serverStarted;
 	
 	IBOutlet NSTextField *serverIp;
 	IBOutlet NSTextField *serverPort;
@@ -19,7 +22,17 @@
 	IBOutlet NSScrollView *messageList;
 }
 
--(IBAction) startServer: (id) sender;
++ (NSString *) ErrorDomain;
++ (int) SocketFileDescriptionError;
++ (int) BindingSocketError;
++ (NSDictionary *)dictionaryWithDescription: (NSString *)description
+							  andSuggestion: (NSString *)suggestion;
+
+- (Boolean)startServerWithIp: (NSString *)ip 
+					  onPort:(NSString *)thePort 
+				   withError:(NSError **)error;
+
+- (IBAction) startServer: (id) sender;
 
 @property (assign) IBOutlet NSWindow *window;
 
