@@ -101,15 +101,19 @@
 		 */
 	}
 	
+	memset(&serverAddress, 0, sizeof(struct sockaddr_in));
+	
 	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(port);
-	serverAddress.sin_addr.s_addr = inet_addr([ip cString]);
+	
+	const char* cString = [ip cStringUsingEncoding:NSASCIIStringEncoding]; 
+	serverAddress.sin_addr.s_addr = inet_addr(cString);
 	
 	socketError = bind(serverSocket, (struct sockaddr *)&serverAddress, sizeof(struct sockaddr_in));
 	if (socketError < 0) {
 		NSLog(@"Error on binding socket %i", errno);
 		return NO;
-		/*
+		
 		if(handleError) {
 			errorCode = [cTwitterAppDelegate BindingSocketError];
 			errorUserDictionary = [cTwitterAppDelegate 
@@ -123,7 +127,6 @@
 					  autorelease];
 			return NO;
 		}
-		 */
 	}
 	
 	socketError = listen(serverSocket, 3);

@@ -1,0 +1,201 @@
+Tclient
+v7
+r0
+t311520270.341924
+cCheck dependencies
+cProcessInfoPlistFile "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Info.plist" client-Info.plist
+cCopyStringsFile "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/School/Multimediale Netzwerke/ctwitter/client/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch.gch client_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/client.build/Debug/client.build/Objects-normal/x86_64/main.o "/School/Multimediale Netzwerke/ctwitter/client/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/client.build/Debug/client.build/Objects-normal/x86_64/clientAppDelegate.o "/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/MacOS/client" normal x86_64
+cTouch "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/School/Multimediale Netzwerke/ctwitter/client/English.lproj/InfoPlist.strings
+c000000004CE01C10000000000000002D
+t1289755664
+s45
+
+N/School/Multimediale Netzwerke/ctwitter/client/English.lproj/MainMenu.xib
+c000000004CE1327E00000000000335FC
+t1289826942
+s210428
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app
+t1289826946
+s102
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Info.plist
+t1289756491
+s883
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/MacOS/client
+t1289826946
+s15800
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/PkgInfo
+t1289756491
+s8
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1289756492
+s92
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj/MainMenu.nib
+t1289826946
+s41688
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/Objects-normal/x86_64/client.LinkFileList
+c000000004CE01F4B00000000000000F1
+t1289756491
+s241
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/Objects-normal/x86_64/clientAppDelegate.o
+t1289826946
+s29564
+
+N/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/Objects-normal/x86_64/main.o
+t1289756496
+s5008
+
+N/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.h
+c000000004CE02763000000000000025A
+t1289758563
+s602
+i<Cocoa/Cocoa.h>
+
+N/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m
+c000000004CE13275000000000000029F
+t1289826933
+s671
+i"clientAppDelegate.h"
+
+N/School/Multimediale Netzwerke/ctwitter/client/client_Prefix.pch
+c000000004CE01C10000000000000008F
+t1289755664
+s143
+i<Cocoa/Cocoa.h>
+
+N/School/Multimediale Netzwerke/ctwitter/client/main.m
+c000000004CE01C100000000000000101
+t1289755664
+s257
+i<Cocoa/Cocoa.h>
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch.gch
+t1289756495
+s54265616
+
+Nclient-Info.plist
+c000000004CE01C1000000000000003EA
+t1289755664
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311520270#311520270#0(0"0(0#1#0"8598545088#0"0#
+
+CCompileC build/client.build/Debug/client.build/Objects-normal/x86_64/clientAppDelegate.o "/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s311519746.291935
+e311519746.413733
+r1
+xCompileC
+xbuild/client.build/Debug/client.build/Objects-normal/x86_64/clientAppDelegate.o
+x/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m: In function '-[clientAppDelegate enableMessageBox:]':
+o/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: 'NSScrollView' may not respond to '-setEnabled:'
+o/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: (Messages without a matching method signature
+o/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: will be assumed to return 'id' and accept
+o/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: '...' as arguments.)
+lSLF07#2@74"Compile /School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m311519746#311519746#0(600"/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m: In function '-[clientAppDelegate enableMessageBox:]':/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: 'NSScrollView' may not respond to '-setEnabled:'/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: (Messages without a matching method signature/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: will be assumed to return 'id' and accept/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m:26: warning: '...' as arguments.)2(22@48"'NSScrollView' may not respond to '-setEnabled:'311519746#122#129#0(6@66"/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m311519733#26#0#26#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311519746#251#126#0(6@66"/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m311519733#26#0#26#0#0"0(0#0#66"/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m8616021344#1566"    cd "/School/Multimediale Netzwerke/ctwitter/client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/School/Multimediale Netzwerke/ctwitter/client/build/Debug" "-I/School/Multimediale Netzwerke/ctwitter/client/build/Debug/include" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/DerivedSources/x86_64" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/DerivedSources" -include /var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch -c "/School/Multimediale Netzwerke/ctwitter/client/clientAppDelegate.m" -o "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/Objects-normal/x86_64/clientAppDelegate.o"0#
+
+CCompileC build/client.build/Debug/client.build/Objects-normal/x86_64/main.o "/School/Multimediale Netzwerke/ctwitter/client/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s311449295.956128
+e311449296.172415
+r1
+xCompileC
+xbuild/client.build/Debug/client.build/Objects-normal/x86_64/main.o
+x/School/Multimediale Netzwerke/ctwitter/client/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /School/Multimediale Netzwerke/ctwitter/client/main.m311449295#311449296#0(0"0(0#0#53"/School/Multimediale Netzwerke/ctwitter/client/main.m8615368352#1540"    cd "/School/Multimediale Netzwerke/ctwitter/client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/School/Multimediale Netzwerke/ctwitter/client/build/Debug" "-I/School/Multimediale Netzwerke/ctwitter/client/build/Debug/include" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/DerivedSources/x86_64" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/DerivedSources" -include /var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch -c "/School/Multimediale Netzwerke/ctwitter/client/main.m" -o "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/School/Multimediale Netzwerke/ctwitter/client/English.lproj/MainMenu.xib"
+s311519745.901916
+e311519746.291640
+r1
+xCompileXIB
+x/School/Multimediale Netzwerke/ctwitter/client/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib311519745#311519746#0(0"0(0#0#73"/School/Multimediale Netzwerke/ctwitter/client/English.lproj/MainMenu.xib8615328512#393"    cd "/School/Multimediale Netzwerke/ctwitter/client"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj/MainMenu.nib" "/School/Multimediale Netzwerke/ctwitter/client/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s311449291.845499
+e311449292.223771
+r1
+xCopyStringsFile
+x/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings311449291#311449292#0(0"0(0#0#78"/School/Multimediale Netzwerke/ctwitter/client/English.lproj/InfoPlist.strings8613958048#384"    cd "/School/Multimediale Netzwerke/ctwitter/client"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Resources/English.lproj"0#
+
+CLd "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/MacOS/client" normal x86_64
+s311519746.413826
+e311519746.450063
+r1
+xLd
+x/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/MacOS/client
+xnormal
+xx86_64
+lSLF07#2@96"Link /School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/MacOS/client311519746#311519746#0(0"0(0#0#0"8616221824#587"    cd "/School/Multimediale Netzwerke/ctwitter/client"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/School/Multimediale Netzwerke/ctwitter/client/build/Debug" "-F/School/Multimediale Netzwerke/ctwitter/client/build/Debug" -filelist "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/Objects-normal/x86_64/client.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/MacOS/client"0#
+
+CProcessInfoPlistFile "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Info.plist" client-Info.plist
+s311449291.818763
+e311449291.845419
+r1
+xProcessInfoPlistFile
+x/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Info.plist
+xclient-Info.plist
+lSLF07#2@25"Process client-Info.plist311449291#311449291#0(0"0(0#0#64"/School/Multimediale Netzwerke/ctwitter/client/client-Info.plist8458375227270064128#337"    cd "/School/Multimediale Netzwerke/ctwitter/client"    builtin-infoPlistUtility client-Info.plist -genpkginfo "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch.gch client_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s311449292.266020
+e311449295.955992
+r1
+xProcessPCH
+x/var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch.gch
+xclient_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile client_Prefix.pch311449292#311449295#0(0"0(0#0#64"/School/Multimediale Netzwerke/ctwitter/client/client_Prefix.pch8614948480#1437"    cd "/School/Multimediale Netzwerke/ctwitter/client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/School/Multimediale Netzwerke/ctwitter/client/build/Debug" "-I/School/Multimediale Netzwerke/ctwitter/client/build/Debug/include" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/DerivedSources/x86_64" "-I/School/Multimediale Netzwerke/ctwitter/client/build/client.build/Debug/client.build/DerivedSources" -c "/School/Multimediale Netzwerke/ctwitter/client/client_Prefix.pch" -o /var/folders/u6/u6mAQ8hJGtGKD69DhoYp7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/client_Prefix-grmszgtgethvwgehprkhfuoamwyc/client_Prefix.pch.gch0#
+
+CTouch "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app"
+s311519746.450152
+e311519746.452368
+r1
+xTouch
+x/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app
+lSLF07#2@75"Touch /School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app311519746#311519746#0(0"0(0#0#0"8613459392#150"    cd "/School/Multimediale Netzwerke/ctwitter/client"    /usr/bin/touch -c "/School/Multimediale Netzwerke/ctwitter/client/build/Debug/client.app"0#
+

@@ -1,22 +1,64 @@
 // !$*UTF8*$!
 {
+	256AC3D80F4B6AC300CF3369 /* cTwitterAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 520}}";
+			sepNavSelRange = "{471, 413}";
+			sepNavVisRange = "{84, 807}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 2574}}";
+			sepNavSelRange = "{3904, 15}";
+			sepNavVisRange = "{3269, 958}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = AEE5EB86128809AD0017E9CC /* Xcode */;
-		activeTarget = 8D1107260486CEB800E47090 /* Xcode */;
+		activeTarget = 8D1107260486CEB800E47090 /* cTwitterServer */;
+		breakpoints = (
+			AEB790A512956DD3002FA22C /* cTwitterAppDelegate.m:34 */,
+			AEB790A712956DD9002FA22C /* cTwitterAppDelegate.m:59 */,
+		);
 		codeSenseManager = AEE5EB9A128809AF0017E9CC /* Code sense */;
 		executables = (
 			AEE5EB86128809AD0017E9CC /* Xcode */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					157,
+					20,
+					156,
+					156,
+					154,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					513,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -31,18 +73,89 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310905261;
-			PBXWorkspaceStateSaveDate = 310905261;
+			PBXPerProjectTemplateStateSaveDate = 312459721;
+			PBXWorkspaceStateSaveDate = 312459721;
+		};
+		perUserProjectItems = {
+			AE2AC2A7129FC1D0007DC8C6 /* PBXTextBookmark */ = AE2AC2A7129FC1D0007DC8C6 /* PBXTextBookmark */;
+			AEB7901F12956035002FA22C /* PBXTextBookmark */ = AEB7901F12956035002FA22C /* PBXTextBookmark */;
+			AEB7910112957950002FA22C /* PBXTextBookmark */ = AEB7910112957950002FA22C /* PBXTextBookmark */;
 		};
 		sourceControlManager = AEE5EB99128809AF0017E9CC /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	8D1107260486CEB800E47090 /* Xcode */ = {
+	8D1107260486CEB800E47090 /* cTwitterServer */ = {
 		activeExec = 0;
 		executables = (
 			AEE5EB86128809AD0017E9CC /* Xcode */,
 		);
+	};
+	AE2AC2A7129FC1D0007DC8C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */;
+		name = "cTwitterAppDelegate.m: 139";
+		rLen = 15;
+		rLoc = 3904;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 3269;
+	};
+	AEB7901F12956035002FA22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* cTwitterAppDelegate.h */;
+		name = "cTwitterAppDelegate.h: 25";
+		rLen = 413;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 84;
+	};
+	AEB790A512956DD3002FA22C /* cTwitterAppDelegate.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */;
+		functionName = "+dictionaryWithDescription:andSuggestion:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 34;
+		location = cTwitterServer;
+		modificationTime = 311783775.868382;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	AEB790A712956DD9002FA22C /* cTwitterAppDelegate.m:59 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */;
+		functionName = "-startServerWithIp:onPort:withError:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 59;
+		location = cTwitterServer;
+		modificationTime = 311783800.8904101;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AEB7910112957950002FA22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */;
+		name = "cTwitterAppDelegate.m: 139";
+		rLen = 15;
+		rLoc = 3904;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 3269;
 	};
 	AEE5EB86128809AD0017E9CC /* Xcode */ = {
 		isa = PBXExecutable;
@@ -51,7 +164,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -60,6 +173,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -67,9 +181,13 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Xcode;
-		showTypeColumn = 0;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	AEE5EB99128809AF0017E9CC /* Source Control */ = {
 		isa = PBXSourceControlManager;
