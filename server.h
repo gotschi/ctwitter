@@ -23,6 +23,7 @@
 	
 	struct sockaddr_in serverAddress;
 	struct sockaddr_in clientAddress;
+	socklen_t sizeOfClient;
 	
 	int serverSocketFileDescriptor;
 	int highestSocketFileDescriptor;
@@ -39,8 +40,10 @@
 		   onPort: (int) thePort;
 
 - (void) start;
+- (void) hardcoreSelectAction;
 - (void) handleReadFileDescriptors;
 - (void) handleMessageFromClient: (int)descriptor;
 - (void) handleClientConnect;
+
 
 @end

@@ -1,7 +1,7 @@
 TcTwitterServer
 v7
 r0
-t312833506.743345
+t312840895.305228
 cCheck dependencies
 cProcessInfoPlistFile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Info.plist" cTwitterServer-Info.plist
 cCopyStringsFile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -69,14 +69,14 @@ t1290960754
 s45
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib
-c000000004CF27F720000000000037E7D
-t1290960754
-s228989
+c000000004CF558B70000000000037EE4
+t1291147447
+s229092
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.h
-c000000004CF53ADA00000000000003C3
-t1291139802
-s963
+c000000004CF55AE900000000000003FC
+t1291148009
+s1020
 i<Cocoa/Cocoa.h>
 i<stdio.h>
 i<sys/types.h>
@@ -86,14 +86,14 @@ i<netinet/in.h>
 i<arpa/inet.h>
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m
-c000000004CF53E5F0000000000000D9C
-t1291140703
-s3484
+c000000004CF55B3C0000000000000F08
+t1291148092
+s3848
 i"Server.h"
 i<sys/select.h>
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app
-t1291140706
+t1291148095
 s102
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Info.plist
@@ -101,8 +101,8 @@ t1290960754
 s907
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer
-t1291140706
-s24128
+t1291148095
+s24496
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/PkgInfo
 t1290960754
@@ -113,16 +113,16 @@ t1290960754
 s92
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Resources/English.lproj/MainMenu.nib
-t1290960754
-s44999
+t1291147696
+s45062
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/Server.o
-t1291140706
-s20328
+t1291148095
+s22444
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterAppDelegate.o
-t1291140188
-s30836
+t1291148050
+s30940
 
 N/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterServer.LinkFileList
 c000000004CF391390000000000000248
@@ -169,11 +169,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies312833506#312833506#0(0"0(0#1#0"8628601984#0"0#
+lSLF07#2@18"Check dependencies312840894#312840894#0(0"0(0#1#0"8625229088#0"0#
 
 CCompileC build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/Server.o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s312833506.508039
-e312833506.699543
+s312840894.829452
+e312840895.261891
 r1
 xCompileC
 xbuild/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/Server.o
@@ -182,11 +182,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@122"Compile /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m312833506#312833506#0(0"0(0#0#114"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m8622519360#2353"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-generated-files.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-own-target-headers.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-all-target-headers.hmap" -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-project-headers.hmap" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/include" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources/x86_64" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources" -include /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitterServer_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitterServer_Prefix.pch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m" -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/Server.o"0#
+lSLF07#2@122"Compile /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m312840894#312840895#0(0"0(0#0#114"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m8629539840#2353"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-generated-files.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-own-target-headers.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-all-target-headers.hmap" -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-project-headers.hmap" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/include" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources/x86_64" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources" -include /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitterServer_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitterServer_Prefix.pch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/Server.m" -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/Server.o"0#
 
 CCompileC build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterAppDelegate.o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s312832988.193148
-e312832988.444614
+s312840850.010614
+e312840850.455085
 r1
 xCompileC
 xbuild/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterAppDelegate.o
@@ -195,7 +195,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@135"Compile /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m312832988#312832988#0(0"0(0#0#127"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m8629231968#2379"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-generated-files.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-own-target-headers.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-all-target-headers.hmap" -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-project-headers.hmap" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/include" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources/x86_64" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources" -include /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitterServer_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitterServer_Prefix.pch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m" -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterAppDelegate.o"0#
+lSLF07#2@135"Compile /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m312840850#312840850#0(0"0(0#0#127"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m8630408352#2379"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-generated-files.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-own-target-headers.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-all-target-headers.hmap" -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-project-headers.hmap" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/include" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources/x86_64" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources" -include /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitterServer_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitterServer_Prefix.pch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterAppDelegate.m" -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterAppDelegate.o"0#
 
 CCompileC build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/main.o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s312723645.122421
@@ -211,20 +211,25 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@120"Compile /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/main.m312723645#312723645#0(0"0(0#0#112"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/main.m8628935904#2349"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-generated-files.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-own-target-headers.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-all-target-headers.hmap" -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-project-headers.hmap" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/include" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources/x86_64" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources" -include /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitterServer_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitterServer_Prefix.pch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/main.m" -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/main.o"0#
 
 CCompileXIB "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib"
-r0
+s312840495.364258
+e312840496.634864
+r1
+xCompileXIB
+x/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib312840495#312840496#0(0"0(0#0#132"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib8609699520#578"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
 
 CCopyStringsFile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
 r0
 
 CLd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer" normal x86_64
-s312833506.699653
-e312833506.740177
+s312840895.261988
+e312840895.302215
 r1
 xLd
 x/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer
 xnormal
 xx86_64
-lSLF07#2@171"Link /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer312833506#312833506#0(0"0(0#0#0"8630093440#922"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" -filelist "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterServer.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer"0#
+lSLF07#2@171"Link /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer312840895#312840895#0(0"0(0#0#0"8629304032#922"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" -filelist "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/Objects-normal/x86_64/cTwitterServer.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/MacOS/cTwitterServer"0#
 
 CProcessInfoPlistFile "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app/Contents/Info.plist" cTwitterServer-Info.plist
 r0
@@ -243,10 +248,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile cTwitterServer_Prefix.pch312723641#312723645#0(0"0(0#0#131"/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterServer_Prefix.pch7301305200968755200#2179"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-generated-files.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-own-target-headers.hmap" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-all-target-headers.hmap" -iquote "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/cTwitterServer-project-headers.hmap" "-F/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/include" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources/x86_64" "-I/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/cTwitterServer.build/Debug/cTwitterServer.build/DerivedSources" -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/cTwitterServer_Prefix.pch" -o /var/folders/mk/mkfwMwAqEsCbHgzCGaLJkE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cTwitterServer_Prefix-dyottkddrhbmrydzwjfhoedxsrtw/cTwitterServer_Prefix.pch.gch0#
 
 CTouch "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app"
-s312833506.740281
-e312833506.743305
+s312840895.302327
+e312840895.305180
 r1
 xTouch
 x/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app
-lSLF07#2@142"Touch /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app312833506#312833506#0(0"0(0#0#0"8629234304#276"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    /usr/bin/touch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app"0#
+lSLF07#2@142"Touch /Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app312840895#312840895#0(0"0(0#0#0"8626018720#276"    cd "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter"    /usr/bin/touch -c "/Users/dominikguzei/Studium/- MMT -/-- MMT Fächer --/3. Semester/Netzwerk und IT/ue_2_ctwitter/ctwitter/build/Debug/cTwitterServer.app"0#
 

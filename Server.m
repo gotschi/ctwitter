@@ -20,6 +20,8 @@
 	ip = theIp;
 	port = thePort;
 	
+	sizeOfClient = sizeof(clientAddress);
+	
 	// BUILD SERVER ADDRESS
 	
 	// override serverAddress with zeroes
@@ -66,12 +68,19 @@
 
 - (void) start
 {
-	
 	// empty our main set
 	FD_ZERO(&mainReadSet);
 	// set bit for server socket descriptor
 	FD_SET(serverSocketFileDescriptor, &mainReadSet);
 	
+	// start select in new thread
+	// so it doesn't block the whole app
+	[NSThread detachNewThreadSelector:@selector(hardcoreSelectAction) toTarget:self withObject:nil];
+	
+}
+
+- (void) hardcoreSelectAction 
+{
 	while (connected) {
 		
 		// copy the master set to the current set for this loop
@@ -99,7 +108,7 @@
 		if(selectResult > 0) {
 			[self handleReadFileDescriptors];
 		}
-	}
+	}	
 }
 
 - (void) handleReadFileDescriptors
@@ -130,20 +139,25 @@
 - (void) handleClientConnect
 {
 	int clientConnect;
+	memset(&clientAddress, 0, sizeof(struct sockaddr));
 	// accept new client
 	clientConnect = accept(serverSocketFileDescriptor, 
-						   (struct sockaddr *)&clientAddress, 
-						   (socklen_t *) sizeof(clientAddress));
+						   (struct sockaddr*)&clientAddress, 
+						   &sizeOfClient);
 	
-	// add client to main set
-	FD_SET(clientConnect, &mainReadSet);
-	
-	// set new client as highest socket file descriptor
-	if (clientConnect > highestSocketFileDescriptor) {
-		highestSocketFileDescriptor = clientConnect;
+	if(clientConnect > 0) {
+		// add client to main set
+		FD_SET(clientConnect, &mainReadSet);
+		
+		// set new client as highest socket file descriptor
+		if (clientConnect > highestSocketFileDescriptor) {
+			highestSocketFileDescriptor = clientConnect;
+		}
+		
+		NSLog(@"CONNECTION: Client connected on %i", clientConnect);
+	} else {
+		perror("error while client connect: ");
 	}
-	
-	NSLog(@"CONNECTION: Client connected on %i", clientConnect);
 }
 
 @end

@@ -14,11 +14,10 @@
     NSWindow *window;
 	
 	Server *server;
+	NSString *serverIp;
+	int port;
 	
-	IBOutlet NSTextField *serverIp;
-	IBOutlet NSTextField *serverPort;
 	IBOutlet NSButton *startButton;
-	
 	IBOutlet NSScrollView *clientList;
 	IBOutlet NSScrollView *messageList;
 }

@@ -26,11 +26,10 @@
 	if(!server.started) {
 		
 		// get values from textfields
-		NSString *ipString = [serverIp stringValue];
-		NSString *portString = [serverPort stringValue];
-		NSLog(@"ip: %@, port: %@", ipString, portString);
+		serverIp = @"127.0.0.1";
+		port = 9000;
 		
-		server = [[Server alloc] initWithIp: ipString onPort: [portString intValue]];
+		server = [[Server alloc] initWithIp: serverIp onPort: port];
 
 		if(server) {
 			NSLog(@"server was successfully setup");
