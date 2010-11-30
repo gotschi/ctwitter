@@ -11,7 +11,8 @@
 
 @implementation Server
 
-@synthesize running;
+@synthesize started;
+@synthesize connected;
 
 - (id) initWithIp: (NSString *) theIp 
 		   onPort: (int) thePort
@@ -65,9 +66,6 @@
 
 - (void) start
 {
-	// file descriptor sets
-	fd_set currentReadSet;
-	fd_set mainReadSet;
 	
 	// empty our main set
 	FD_ZERO(&mainReadSet);
@@ -77,7 +75,7 @@
 	while (connected) {
 		
 		// copy the master set to the current set for this loop
-		memcpy(&currentReadSet, &masterReadSet, sizeof(masterReadSet));
+		memcpy(&currentReadSet, &mainReadSet, sizeof(mainReadSet));
 		
 		// get any file descriptors that are ready to be read
         int selectResult = select(highestSocketFileDescriptor + 1, &currentReadSet, NULL, NULL, NULL);
@@ -94,7 +92,7 @@
 				default:
 					NSLog(@"Problem with select occured");
 			}
-            closesocket(serverSocketFileDescriptor);
+            close(serverSocketFileDescriptor);
 		}
 		
 		// HANDLE ANY FILE DESCRIPTORS THAT ARE READY
@@ -114,12 +112,38 @@
 			
 			if(descriptor != serverSocketFileDescriptor) {
 				// messages
+				[self handleMessageFromClient: descriptor];
 				
 			} else {
 				// connects
+				[self handleClientConnect];
 			}
 		}
 	}
+}
+
+- (void) handleMessageFromClient:(int)descriptor 
+{
+	
+}
+
+- (void) handleClientConnect
+{
+	int clientConnect;
+	// accept new client
+	clientConnect = accept(serverSocketFileDescriptor, 
+						   (struct sockaddr *)&clientAddress, 
+						   (socklen_t *) sizeof(clientAddress));
+	
+	// add client to main set
+	FD_SET(clientConnect, &mainReadSet);
+	
+	// set new client as highest socket file descriptor
+	if (clientConnect > highestSocketFileDescriptor) {
+		highestSocketFileDescriptor = clientConnect;
+	}
+	
+	NSLog(@"CONNECTION: Client connected on %i", clientConnect);
 }
 
 @end

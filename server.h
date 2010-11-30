@@ -16,14 +16,21 @@
 
 @interface Server : NSObject {
 
-@private
 	NSString *ip;
 	in_port_t port;
 	BOOL connected;
 	BOOL started;
+	
 	struct sockaddr_in serverAddress;
+	struct sockaddr_in clientAddress;
+	
 	int serverSocketFileDescriptor;
 	int highestSocketFileDescriptor;
+	
+	// file descriptor sets to keep track
+	// of incoming messages
+	fd_set mainReadSet;
+	fd_set currentReadSet;
 }
 
 @property (readonly, getter=isConnected) BOOL connected;
@@ -33,4 +40,7 @@
 
 - (void) start;
 - (void) handleReadFileDescriptors;
+- (void) handleMessageFromClient: (int)descriptor;
+- (void) handleClientConnect;
+
 @end

@@ -23,7 +23,7 @@
 
 - (IBAction)startServer: (id)sender 
 {
-	if(!server.running) {
+	if(!server.started) {
 		
 		// get values from textfields
 		NSString *ipString = [serverIp stringValue];
