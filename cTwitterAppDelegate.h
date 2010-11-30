@@ -7,12 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Server.h"
 
 @interface cTwitterAppDelegate : NSObject <NSApplicationDelegate> {
 	
     NSWindow *window;
 	
-	Boolean serverStarted;
+	Server *server;
 	
 	IBOutlet NSTextField *serverIp;
 	IBOutlet NSTextField *serverPort;
@@ -21,16 +22,6 @@
 	IBOutlet NSScrollView *clientList;
 	IBOutlet NSScrollView *messageList;
 }
-
-+ (NSString *) ErrorDomain;
-+ (int) SocketFileDescriptionError;
-+ (int) BindingSocketError;
-+ (NSDictionary *)dictionaryWithDescription: (NSString *)description
-							  andSuggestion: (NSString *)suggestion;
-
-- (Boolean)startServerWithIp: (NSString *)ip 
-					  onPort:(NSString *)thePort 
-				   withError:(NSError **)error;
 
 - (IBAction) startServer: (id) sender;
 

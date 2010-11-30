@@ -1,5 +1,0 @@
-/School/Multimediale Netzwerke/ctwitter/cTwitterAppDelegate.m: In function '-[cTwitterAppDelegate startServerWithIp:onPort:withError:]':
-/School/Multimediale Netzwerke/ctwitter/cTwitterAppDelegate.m:158: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)
-/School/Multimediale Netzwerke/ctwitter/cTwitterAppDelegate.m:74: warning: unused variable 'errorDescription'
-/School/Multimediale Netzwerke/ctwitter/cTwitterAppDelegate.m: In function '-[cTwitterAppDelegate startServer:]':
-/School/Multimediale Netzwerke/ctwitter/cTwitterAppDelegate.m:183: warning: unused variable 'success'

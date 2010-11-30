@@ -2,16 +2,16 @@
 {
 	256AC3D80F4B6AC300CF3369 /* cTwitterAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {714, 671}}";
-			sepNavSelRange = "{679, 0}";
-			sepNavVisRange = "{0, 891}";
+			sepNavIntBoundsRect = "{{0, 0}, {596, 660}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 644}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* cTwitterAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 2470}}";
-			sepNavSelRange = "{1496, 0}";
-			sepNavVisRange = "{996, 1777}";
+			sepNavIntBoundsRect = "{{0, 0}, {859, 2236}}";
+			sepNavSelRange = "{4387, 0}";
+			sepNavVisRange = "{349, 1563}";
 		};
 	};
 	256AC3F00F4B6AF500CF3369 /* cTwitterServer_Prefix.pch */ = {
@@ -25,6 +25,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = A77CA33E12880ABA003EBF11 /* cTwitterServer */;
 		activeTarget = 8D1107260486CEB800E47090 /* cTwitterServer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* cTwitterServer */,
+		);
 		codeSenseManager = A77CA34B12880AD9003EBF11 /* Code sense */;
 		executables = (
 			A77CA33E12880ABA003EBF11 /* cTwitterServer */,
@@ -57,7 +60,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					496,
+					378,
 					60,
 					20,
 					48,
@@ -74,8 +77,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311707861;
-			PBXWorkspaceStateSaveDate = 311707861;
+			PBXPerProjectTemplateStateSaveDate = 312719305;
+			PBXWorkspaceStateSaveDate = 312719305;
 		};
 		perUserProjectItems = {
 			A7098EB91291B3DE00D8A0D3 = A7098EB91291B3DE00D8A0D3 /* PBXTextBookmark */;
